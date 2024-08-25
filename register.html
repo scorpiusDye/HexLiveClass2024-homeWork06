@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>註冊｜Vivre 訂閱生活</title>
+    <script type="module" crossorigin src="/HexLiveClass2024-homeWork06/assets/main-079d49bf.js"></script>
+    <link rel="stylesheet" href="/HexLiveClass2024-homeWork06/assets/main-939c62ab.css">
+  </head>
+  <body class="bg-primary">
+    
+  <div class="container mx-auto py-xl-5 border-xl-bottom">
+    <div class="nav d-flex align-items-center flex-xl-nowrap">
+      <h1 class="logo mb-0">
+        <a href="index.html" class="d-block hide-text" title="Vivre"> Vivre </a>
+      </h1>
+      <button
+        class="toggle-btn btn btn-primary z-1000 position-relative d-xl-none ms-auto"
+      >
+        <i class="toggle-icon bi bi-list"></i>
+      </button>
+      <!-- 選單內容 -->
+      <div class="menu-content z-3 ms-xl-5 d-xl-flex w-100">
+        <div class="container d-xl-flex w-xl-100">
+          <div class="input-group mb-4 pt-3 mb-xl-0 pt-xl-0 w-xl-276px h-xl-48px">
+            <span
+              class="input-group-text bg-white ps-3 border-left-radius-pill pe-0 fs-content text-color-focus-change"
+              >搜尋文章</span
+            >
+            <input
+              type="text"
+              class="form-control focus-style-reset border-left-0 border-right-0"
+              aria-label="Amount (to the nearest dollar)"
+            />
+            <span class="input-group-text bg-white border-right-radius-pill">
+              <i class="bi bi-search text-teal fs-4 pe-1"></i>
+            </span>
+          </div>
+          <ul class="mb-5 d-xl-flex mb-xl-0 align-items-center ms-xl-auto">
+            <li class="mb-4 mb-xl-0 me-xl-3">
+              <a href="" class="fs-content nav-items text-decoration-none"
+                >所有文章</a
+              >
+            </li>
+            <li class="mb-4 mb-xl-0 me-xl-3">
+              <a href="" class="fs-content nav-items text-decoration-none"
+                >訂閱方案</a
+              >
+            </li>
+            <li class="me-xl-3">
+              <a href="" class="fs-content nav-items text-decoration-none"
+                >關於我們</a
+              >
+            </li>
+          </ul>
+          <div class="mt-6 mt-xl-0">
+            <a
+            href="register.html"  
+            class="btn-teal text-decoration-none fs-content d-block w-100 w-xl-auto rounded-pill"
+            >
+              登入 / 註冊
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- <a href="index.html">index</a>
+<a href="about.html">about</a>
+<a href="contact.html">contact</a> -->
+    <section class="py-60-xl-100">
+      <div class="bg-white p-4 p-xl-5 rounded-xl-3 border-primary-300 maw-630px mx-auto ">
+        <h2 class="fs-4 text-teal font-weight-bold mb-4 mb-xl-5">註冊</h2>
+        <form>
+          <div class="mb-3">
+            <label for="account" class="form-label text-gray-800 font-weight-bold mb-2">會員帳號</label>
+            <input name="account" type="account" class="form-control input-custom rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="請輸入會員帳號">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label text-gray-800 font-weight-bold mb-2">密碼</label>
+            <input name="password" type="password" class="form-control input-custom rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="請輸入密碼">
+          </div>
+          <div class="mb-3 mb-xl-5">
+            <label for="email" class="form-label text-gray-800 font-weight-bold mb-2">電子信箱</label>
+            <input name="email" type="email" class="form-control input-custom rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="請輸入電子信箱">
+          </div>
+          <button
+          type="submit"
+            class="btn-teal text-decoration-none fs-content w-100 d-block w-xl-auto rounded-pill"
+          >
+          立即註冊
+            <i class="bi bi-arrow-right py-4"></i>
+          </button>
+        </form>
+        <div class="py-4 py-xl-5 d-flex flex-nowrap deco-double-line align-items-center">
+          <p class="fs-6 font-wight-bold text-gray-500 d-inline-block text-nowrap px-3">或以其他方式註冊</p>
+        </div>
+        <a
+          href="#"
+            class="btn-gray text-decoration-none w-100 d-flex justify-content-center align-items-center w-xl-auto rounded-pill mb-2"
+          >
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGySURBVHgBtZM/T8JAGMafa4kQHSSMTCXRxMRBMK5GOjqYlNFJ/QAmTqyIg3HzIwCLjnQwrpToZqJFXRyMXYxOSmQAIuV8j9YGShv/RJ/k7tr33v7e5/4U+COxsAmeRRw2NMpQBgEJJvUmM2B9C+QCDulxE8EqQ0bRD2Q+iII+auCui3AZ7AzqcCDyBcSgUg0amxRfoTFLzSJHW36yB8KiXMCF/QkRH+bYOYGGHS/TnsnB+zRYGq/FFEj8AZc2cEqtw3NkXccP5DiS+2lwJlwBc7LBVrsjkGS+sRsGYJGI/rg/bzogLqWpc2YmWd2fzMEKYSD0eqI3pfEZHscv5DhitHmuodv3xALwNJLEwIsYdbhBgzJ4kZnp5IiJGl1CKfp63J7FUXtGhNSTnG4EVU7mrzWqWfWgkp16PshYg6UxFc291lLFhQhV16qa5odkSztZGkqeU4aygHiOhLSqFqeDv+LwXUigTknTFE8LVusthfu7ddh21OKsr46BXJhCsJoPNqZuJ2HdNLY9iNDIqek53aKbpBK9EgYRy5mKvWSGIWOOAtyl3SXRbwhrgmpRsSb+Ux8DMpnpdyeTfAAAAABJRU5ErkJggg==" alt="icon-google" class="me-2">
+          使用 Google 註冊
+        </a>
+        <a
+          href="#"
+            class="btn-gray text-decoration-none w-100 d-flex justify-content-center align-items-center w-xl-auto rounded-pill"
+          >
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFtSURBVHgBvVO9SsRAEJ7d5OQKD9MdJ4gRfABLKznxAbTTVvEKnyLJA1hfcYpoZ2djf/oE2sqBsTEICgFF1Euyzk6SY/N3P819ELIz+fbb2ZkvAPNC/cIz5TOJx8qSes9rCxAWgNjA0EjSPrJvahp3fg5b7kQh3vMsBpENYyCA21Gn5VQKVYkYCxxWG5zWjx9BqdhIqN71zKEePedFds06nG8ZJCaxfv0G7meYbI62g85KX671dMOwFll4TAGnm0skcvX0De5XCP6vUK6oYR8hK4TZPSi5krmo0fro3i+eEg+DENfbpfEaRaHSoWYoqTX0KsZgvwlmQxvFwfEyvfWz11J+XNEJ+SJT+wv2I22qhFzfeX/5/X7qKaUi9oB3bqfRzu079Wdw0KRYTqsANGi2IsqFDsyIEF1eEJJ+QF9MLUZc5Vfh6kcUs6cRkxzJVXM8T5KEMOBr2K9Lzpk6AJ8x1k/cbMOsEEKY8oF54R/eZYMUmIQwhAAAAABJRU5ErkJggg==" alt="icon-facebook" class="me-2">
+          使用 Facebook 註冊
+        </a>
+        <div class="mt-4 mt-xl-5 text-center">
+          <span class="fs-content font-weight-black text-dark me-2">已經是會員了？ </span>
+          <a
+                href=""
+                class="text-decoration-none text-teal-dark--hover"
+              >
+                <span
+                  class="text-teal font-weight-black fs-content"
+                  >點此登入</span
+                >
+  
+              </a>
+        </div>
+      </div>
+      
+    </section>
+    <div class="container border-top border-gray-500">
+    <p class="text-secondary fs-content-ce text-center py-4">©Vivre 2024 All right Reserved</p>
+</div>
+
+    
+  </body>
+</html>
